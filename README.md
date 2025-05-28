@@ -10,6 +10,13 @@
    ```sh
    python sap-mcp-server.py
    ```
+3. For any changes you do to the server file, you may need to stop and restart the server as follows:
+
+   netstat -ano | findstr :8080 (the port number)
+   
+This should give you the process to kill. You can then run:
+
+   taskkill /F /PID 12017(or whatever the process ID is)
 
 ## 💻 Run the Client
 
