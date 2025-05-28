@@ -16,7 +16,10 @@
    
 This should give you the process to kill. You can then run:
 
-   taskkill /F /PID 12017(or whatever the process ID is)
+    taskkill /F /PID 12017(or whatever the process ID is)
+
+Then, restart the server by re-running the sap-mcp-server.py file.
+
 
 ## 💻 Run the Client
 
